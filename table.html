@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table,th,td
+        {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .odd td:nth-child(odd)
+        {
+           background-color: black;
+        }
+        .even td:nth-child(even)
+        {
+           background-color: black;
+        }
+        
+        /* 
+        :=pseudoclass
+        ::=pseudoelement
+        tr:nth-child(even)
+        {
+            background-color: lightgray;
+        }
+        th:nth-child(odd),td:nth-child(odd)
+        {
+            background-color: lightgreen; 
+        } */
+        table{
+            height: 300px;
+            width: 300px;
+        }
+        body{
+            left: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1>CHESS BOARD</h1>
+  <!-- <h1>Table</h1>
+  <table>
+    <tr>
+        <th rowspan="2">S.no</th>
+        <th colspan="2">Name</th>
+        <th rowspan="2">Age</th>
+    </tr>
+    <tr>
+        <th>First name</th>
+        <th>Lastname</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Suriya</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Navaneedhan</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rashik</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Sanjai</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Naveen</td>
+        <td>21</td>
+    </tr>
+  </table>   -->
+
+
+  <table>
+    <tr class="odd">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="even">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+    <tr class="odd">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="even">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="odd">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="even">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="odd">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="even">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+</html>
